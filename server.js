@@ -44,13 +44,13 @@ app.get("/add", function(req, res) {
 
 app.get("/tables", function(req, res) {
   console.log(req, res);
-  // res.sendFile(path.join(__dirname, "tables.html"));
+  res.sendFile(path.join(__dirname, "tables.html"));
 });
 
 // Get all reservations and waiting list
-// app.get("/tables", function(req, res) {
-//   res.json(reservations);
-// });
+app.get("/tables", function(req, res) {
+  res.json(reservations);
+});
 
 app.get("/tables", function(req, res) {
   res.json(waitingList);
