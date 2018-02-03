@@ -1,0 +1,10 @@
+.jumbotron {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#viewTables,
+#makeReservation {
+    width: 230px;
+    display: inline-block;
+}
