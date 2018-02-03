@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="display-3 text-center">
+            <i class="fas fa-fire"></i> Hot Restaurant</h1>
+
+        <hr class="my-4">
+        <h2 class="text-center">Book your seat before it's gone!</h2>
+        <br>
+        <div class="text-center">
+            <a id="viewTables" class="btn btn-primary btn-lg mx-auto center" href="tables.html" role="button">
+                <i class="fas fa-table"></i> View Tables</a>
+            <a id="makeReservation" class="btn btn-danger btn-lg mx-auto center" href="add.html" role="button">
+                <i class="fas fa-utensils"></i> Make Reservations</a>
+        </div>
+    </div>
+</div>
+
+
+    <table id="reservation_table" class="table">
+        <thead id="reserve_header"class="thead-dark">
+            <h2>Reserved Tables</h2>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="col">Table Number</th>
+            
+                <th scope="col">Unique ID</th>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td>1001</td>
+                
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>1002</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>1003</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>1004</td>
+
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>1005</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="waitlist_table" class="table">
+        <thead id="waitlist_header" class="thead-dark">
+            <h2>Waitlist</h2>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="col">Position</th>
+    
+                <th scope="col">Unique ID</th>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td>1001</td>
+    
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>1002</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>1003</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>1004</td>
+    
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>1005</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="server.js" type="javascript">
+
+
+    </script>
+</body>
+
+</html>
